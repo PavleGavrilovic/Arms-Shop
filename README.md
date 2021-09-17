@@ -1,4 +1,4 @@
-# Arms-Shop
+# Arms-Shop (work in progress)
 Swords and sword accessories shop
 
 - an online shop selling sword and sword accessories
