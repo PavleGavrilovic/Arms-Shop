@@ -33,5 +33,40 @@
         "name":"Zweihänder",
         "price":"400",
         "type":"greatsword"
+    },
+    {
+        "id":6,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0011740_german-landsknechte-flamberge-sword_550.png",
+        "name":"Flamberge",
+        "price":"320",
+        "type":"greatsword"
+    },
+    {
+        "id":7,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0079945_mountain-warrior-katana_550.png",
+        "name":"Katana",
+        "price":"500",
+        "type":"longsword"
+    },
+    {
+        "id":8,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0004451_tinker-pearce-sharpened-longsword_550.png",
+        "name":"Straight Sword",
+        "price":"150",
+        "type":"longsword"
+    },
+    {
+        "id":9,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0027330_arming-broad-sword_550.png",
+        "name":"Broadsword",
+        "price":"160",
+        "type":"longsword"
+    },
+    {
+        "id":10,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0011747_steel-scottish-claymore-sword_550.png",
+        "name":"Claymore",
+        "price":"280",
+        "type":"greatsword"
     }
 ]
