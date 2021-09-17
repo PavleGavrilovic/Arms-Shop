@@ -4,18 +4,37 @@
   }
 
 *{
-    font-family: Jancient;
+    
     margin: 0;
     padding: 0;
 }
 
 body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
 
+header{
+    background-color: bisque;
+}
+header label{
+    margin-left: 10px;
+}
+
+header input{
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+}
+
+#darkLight{
+    background-color: gold;
+    width: 250px;
+    text-align: center;
+}
 
 #naslov{
-    background-color: bisque;
+    font-family: Jancient;
     top: 0;
     width: 100%;
     height: 200px;
@@ -25,6 +44,216 @@ body{
     align-items: center;
 }
 
+#headerImg{
+    width: 90px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
 #naslov h1{
     font-size: 70px;
+}
+
+#cartIcon{
+    background-color: gold;
+    padding: 5px;
+    float: right;
+    top: 0;
+    position: sticky;
+}
+
+#cartIcon:hover{
+    cursor: pointer;
+}
+
+#cartImg{
+    width: 30px;
+    height: 30px;
+}
+
+#mainWrapper{
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.weaponArticle{
+    margin: 30px;
+    width: 270px;
+    border-top: 2px solid rgb(209, 198, 198);
+    border-bottom: 2px solid rgb(209, 198, 198);
+}
+
+.weaponArticle h3{
+    margin-top: 5px;
+}
+
+.weaponArticle:hover{
+    cursor: pointer;
+}
+
+.weaponImg{
+    width: 150px;
+    height: 240px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.weaponBtn{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+}
+
+.weaponBtn:hover{
+    cursor: pointer;
+}
+
+#goToCartBtn{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+    margin-left: 180px;
+}
+
+/* MODAL WINDOW.......... */
+
+.modalContainer{
+    opacity: 0;
+    pointer-events: none;
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContainer.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+#modal{
+    background-color: white;
+    width: 420px;
+    padding: 20px;
+    text-align: center;
+}
+
+#modal p{
+    margin-top: 20px;
+}
+
+.modalImg{
+    width: 200px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#modalPrice{
+    margin-top: 10px;
+}
+
+/* ................................................. */
+
+footer{
+    padding-top: 20px;
+}
+
+footer h1{
+    font-family: Jancient;
+    font-size: 40px;
+    text-align: center;
+}
+
+fieldset{
+    border: none;
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+form input{
+    width: 350px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+form textarea{
+    width: 400px;
+    margin: 0 auto;
+    height: 200px;
+    resize: none;
+}
+
+form button{
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+}
+
+
+@media only screen and (min-width: 768px){
+    .weaponArticle{
+        margin: 30px;
+        width: 200px;
+    }
+
+    .weaponImg{
+        width: 140px;
+        height: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #goToCartBtn{
+        margin-left: 696px;
+    }
+
+    #modal{
+        width: 500px;
+    }
+
+    .modalImg{
+        width: 200px;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    form textarea{
+        height: 300px;
+    }
+
 }
