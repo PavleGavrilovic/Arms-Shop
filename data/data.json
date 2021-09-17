@@ -26,5 +26,12 @@
         "name":"Buckler",
         "price":"90",
         "type":"sidearm"
+    },
+    {
+        "id":5,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0005288_two-handed-great-sword_415.png",
+        "name":"Zweihänder",
+        "price":"400",
+        "type":"greatsword"
     }
 ]
