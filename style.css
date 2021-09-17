@@ -1,0 +1,30 @@
+@font-face {
+    font-family: Jancient;
+    src: url(assets/fonts/FONT1/JANCIENT.TTF);
+  }
+
+*{
+    font-family: Jancient;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+
+#naslov{
+    background-color: bisque;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#naslov h1{
+    font-size: 70px;
+}

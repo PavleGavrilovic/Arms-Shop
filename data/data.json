@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0034475_wire-hilt-rapier_550.png",
+        "name":"Wire Hilt Rapier",
+        "price":"200",
+        "type":"thrusting sword"
+    },
+    {
+        "id":2,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0039332_spanish-tizona-cup-hilt-rapier-by-marto_550.png",
+        "name":"Cup Hilt Rapier",
+        "price":"170",
+        "type":"thrusting sword"
+    },
+    {
+        "id":3,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0033011_medieval-parrying-dagger_550.png",
+        "name":"Parrying Dagger",
+        "price":"90",
+        "type":"sidearm"
+    }
+]
