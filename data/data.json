@@ -68,5 +68,40 @@
         "name":"Claymore",
         "price":"280",
         "type":"greatsword"
+    },
+    {
+        "id":11,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0004356_bastard-sword_550.png",
+        "name":"Bastard Sword",
+        "price":"280",
+        "type":"greatsword"
+    },
+    {
+        "id":12,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0009418_scorpion-scimitar-sword_550.png",
+        "name":"Scimitar",
+        "price":"180",
+        "type":"curved sword"
+    },
+    {
+        "id":13,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0005218_grosse-messer-sword_415.png",
+        "name":"Falchion",
+        "price":"170",
+        "type":"curved sword"
+    },
+    {
+        "id":14,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0081564_renaissance-stiletto-dagger_550.png",
+        "name":"Stiletto Dagger",
+        "price":"110",
+        "type":"sidearm"
+    },
+    {
+        "id":15,
+        "image":"https://mcishop.azureedge.net/mciassets/w_5_0081580_templar-seal-dagger_550.png",
+        "name":"Templar Dagger",
+        "price":"120",
+        "type":"sidearm"
     }
 ]
