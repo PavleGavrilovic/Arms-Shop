@@ -4,104 +4,119 @@
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0034475_wire-hilt-rapier_550.png",
         "name":"Wire Hilt Rapier",
         "price":"200",
-        "type":"thrusting sword"
+        "type":"thrusting sword",
+        "description":"A rapier or espada ropera is a type of sword with a slender and sharply-pointed two-edged blade that was popular in Western Europe, both for civilian use (dueling and self-defense) and as a military side arm, throughout the 16th and 17th centuries. This one sports a wire hilt, providing at once protection of the hand and a fashionable look."
     },
     {
         "id":2,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0039332_spanish-tizona-cup-hilt-rapier-by-marto_550.png",
         "name":"Cup Hilt Rapier",
         "price":"170",
-        "type":"thrusting sword"
+        "type":"thrusting sword",
+        "description":"A rapier or espada ropera is a type of sword with a slender and sharply-pointed two-edged blade that was popular in Western Europe, both for civilian use (dueling and self-defense) and as a military side arm, throughout the 16th and 17th centuries. This one sports a cup hilt, providing great protection of the hand."
     },
     {
         "id":3,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0033011_medieval-parrying-dagger_550.png",
         "name":"Parrying Dagger",
         "price":"90",
-        "type":"sidearm"
+        "type":"sidearm",
+        "description":"This weapon is used as an off-hand weapon in conjunction with a single-handed sword such as a rapier. As the name implies it is designed to parry."
     },
     {
         "id":4,
         "image":"https://www.pngkit.com/png/full/284-2842504_medieval-archers-combat-buckler-shield-circle.png",
         "name":"Buckler",
         "price":"90",
-        "type":"sidearm"
+        "type":"sidearm",
+        "description":"A small shield, up to 45 cm in diameter, gripped in the fist with a central handle behind the boss. Its size made it poor protection against missile weapons (e.g., arrows) but useful in deflecting the blow of an opponent's weapons, binding his arms or hindering his movements."
     },
     {
         "id":5,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0005288_two-handed-great-sword_415.png",
         "name":"Zweihänder",
         "price":"400",
-        "type":"greatsword"
+        "type":"greatsword",
+        "description":"The Zweihänder (German 'two-hander') is a large two-handed sword primarily in use during the 16th century. In its developed form, the Zweihänder acquired the characteristics of a polearm rather than a sword due to their large size and weight and therefore increased range and striking power."
     },
     {
         "id":6,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0011740_german-landsknechte-flamberge-sword_550.png",
         "name":"Flamberge",
         "price":"320",
-        "type":"greatsword"
+        "type":"greatsword",
+        "description":"A flame-bladed sword or wave-bladed sword has a characteristically undulating style of blade. The wave in the blade is often considered to contribute a flame-like quality to the appearance of a sword. The design of the blade is decorative along with being functional by causing unpleasant vibrations while parrying. The flamberge's undulating blade is no more effective at cutting than a straight one."
     },
     {
         "id":7,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0079945_mountain-warrior-katana_550.png",
         "name":"Katana",
         "price":"500",
-        "type":"longsword"
+        "type":"longsword",
+        "description":"A katana (刀 or かたな) is a Japanese sword characterized by a curved, single-edged blade with a circular or squared guard and long grip to accommodate two hands. Developed later than the tachi, it was used by samurai in feudal Japan and worn with the blade facing upward."
     },
     {
         "id":8,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0004451_tinker-pearce-sharpened-longsword_550.png",
-        "name":"Straight Sword",
+        "name":"Longsword",
         "price":"150",
-        "type":"longsword"
+        "type":"straight sword",
+        "description":"Widely-used standard straight sword, only matched in ubiquity by the shortsword. An accessible sword which inflicts consistent regular damage and high slash damage, making it applicable to a variety of situations."
     },
     {
         "id":9,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0027330_arming-broad-sword_550.png",
         "name":"Broadsword",
         "price":"160",
-        "type":"longsword"
+        "type":"straight sword",
+        "description":"A straight sword with a broad blade designed for slashing. A large sweeping attack makes this effective against crowds, but is prone to deflection from walls in narrow spaces."
     },
     {
         "id":10,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0011747_steel-scottish-claymore-sword_550.png",
         "name":"Claymore",
         "price":"280",
-        "type":"greatsword"
+        "type":"greatsword",
+        "description":"A claymore is the Scottish variant of the late medieval two-handed sword. It is characterised as having a cross hilt of forward-sloping quillons with quatrefoil terminations and was in use from the 15th to 17th centuries."
     },
     {
         "id":11,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0004356_bastard-sword_550.png",
         "name":"Bastard Sword",
         "price":"280",
-        "type":"greatsword"
+        "type":"greatsword",
+        "description":"The French épée bâtarde and the English bastard sword originate in the 15th or 16th century. The bastard sword is midway in length between an arming sword and a long sword."
     },
     {
         "id":12,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0009418_scorpion-scimitar-sword_550.png",
         "name":"Scimitar",
         "price":"180",
-        "type":"curved sword"
+        "type":"curved sword",
+        "description":"A scimitar is a backsword with a convex curved blade associated with Middle Eastern, South Asian, or North African cultures. A European term, scimitar does not refer to one specific sword type, but an assortment of different Eastern curved swords inspired by types introduced to the Middle East by Central Asian ghilmans."
     },
     {
         "id":13,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0005218_grosse-messer-sword_415.png",
         "name":"Falchion",
         "price":"170",
-        "type":"curved sword"
+        "type":"curved sword",
+        "description":"A falchion is a one-handed, single-edged sword of European origin. Falchions are found in different forms from around the 13th century up to and including the 16th century. In some versions the falchion looks rather like the seax and later the sabre, and in other versions more like a machete with a crossguard."
     },
     {
         "id":14,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0081564_renaissance-stiletto-dagger_550.png",
         "name":"Stiletto Dagger",
         "price":"110",
-        "type":"sidearm"
+        "type":"sidearm",
+        "description":"A stiletto is a knife or dagger with a long slender blade and needle-like point, primarily intended as a stabbing weapon. The stiletto blade's narrow cross-section and acuminated (tapering gradually to a sharp point) tip reduce friction upon entry, allowing the blade to penetrate deeply. Some consider the stiletto a form of dagger, but most stilettos are specialized thrusting weapons not designed for cutting or slashing, even with edged examples."
     },
     {
         "id":15,
         "image":"https://mcishop.azureedge.net/mciassets/w_5_0081580_templar-seal-dagger_550.png",
         "name":"Templar Dagger",
         "price":"120",
-        "type":"sidearm"
+        "type":"sidearm",
+        "description":"A knife with a very sharp point and two sharp edges, typically designed or capable of being used as a thrusting or stabbing weapon. This one is decorated with the insignia of the Order of the Knights Templar."
     }
 ]
