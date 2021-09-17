@@ -4,24 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Arms Shop</title>
+    <title>The Arms Shop | Swords & Sword Accessories</title>
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="cartIcon">
+        
+        <img src="assets/images/cart.png" alt="cart_img" id="cartImg">
+    </div>
+    
     <header>
+        <div id="darkLight">
+            <label for="dark">Toggle dark/light mode</label>
+            <input type="checkbox" name="dark" id="dark">
+        </div>
+        
         <div id="naslov">
             <h1>The Arms Shop</h1>
+            <img src="assets/images/headerImg.jpg" alt="sword_img" id="headerImg">
             <h2>Arma Virumque Cano</h2>
         </div>
     </header>
 
     <main>
+        <div class="modalContainer" id="modalContainer">
+            <div id="modal">
 
+                <button id="close">X</button>
+
+            </div>
+        </div>
+        <div id="mainWrapper"></div>
+
+        <button id="goToCartBtn">Go To Cart</button>
     </main>
 
     <footer>
 
     </footer>
+    <script src="JS/main.js"></script>
 </body>
 </html>
