@@ -19,5 +19,12 @@
         "name":"Parrying Dagger",
         "price":"90",
         "type":"sidearm"
+    },
+    {
+        "id":4,
+        "image":"https://www.pngkit.com/png/full/284-2842504_medieval-archers-combat-buckler-shield-circle.png",
+        "name":"Buckler",
+        "price":"90",
+        "type":"sidearm"
     }
 ]
