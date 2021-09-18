@@ -118,5 +118,45 @@
         "price":"120",
         "type":"sidearm",
         "description":"A knife with a very sharp point and two sharp edges, typically designed or capable of being used as a thrusting or stabbing weapon. This one is decorated with the insignia of the Order of the Knights Templar."
+    },
+    {
+        "id":16,
+        "image":"https://lh3.googleusercontent.com/proxy/m1Sez1mpUkxFzODRVijh2iWf58Wy2aCTGwn7QFWWGXBtuHohZWgbapWVTWLFxM0UwzeEGH1jvhjORLoJbwbVk02jCJOTS4CQI4D0LmL9",
+        "name":"Francesco Alfieri - The Art of the Two-Handed Sword",
+        "price":"30",
+        "type":"manual",
+        "description":"Published in 1653 and reprinted in 1683, it includes the entirety of Alfieri's treatise on rapier fencing and appends a section on the use of the Spadone (two-handed sword)."
+    },
+    {
+        "id":17,
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Vincentio_Saviolo%2C_His_Practice.jpg/800px-Vincentio_Saviolo%2C_His_Practice.jpg",
+        "name":"Vincentio Saviolo - His Practice",
+        "price":"30",
+        "type":"manual",
+        "description":"In 1595, John Wolfe printed Vincentio Saviolo, his practise, in two books, the first intreating of the use of the Rapier and Dagger, the second of Honor and honorable quarrels in London. The first part of this work was written as a conversation between Saviolo and an imaginary student (a structure common in 16th-century handbooks). This part undertakes to instruct in the rapier and dagger fencing techniques of Saviolo's day."
+    },
+    {
+        "id":18,
+        "image":"https://www.wiktenauer.com/images/thumb/b/b5/Ragione_di_adoprar_sicuramente_l%27Arme.jpg/419px-Ragione_di_adoprar_sicuramente_l%27Arme.jpg",
+        "name":"Giacomo di Grassi - RAGIONE DI ADOPRAR SICVRAMENTE L'ARME SI DA OFFESA, COME DA DIFESA, Con un Trattato dell'inganno, & con un modo di essitarsi da se stesso, per acquistare forza, giudicio, & prestezza",
+        "price":"30",
+        "type":"manual",
+        "description":"Giacomo di Grassi was a 16th century Italian fencing master. He seems to have developed his own method, which he laid out in great detail in his 1570 work Ragione di adoprar sicuramente l'Arme (Discourse on Wielding Arms with Safety)."
+    },
+    {
+        "id":19,
+        "image":"https://lh3.googleusercontent.com/proxy/eWh6cpjRR3fuC3zPlQYb00gqQ3HzXh5TfLCaBrHph9-WL_hS4Kl-8j96T3-1ROV22fXqrU3k_8I",
+        "name":"Ridolfo Capo Ferro - Great Representation of the Art and of the Use of Fencing",
+        "price":"30",
+        "type":"manual",
+        "description":"This is an Italian fencing manual written by Ridolfo Capo Ferro da Cagli and printed in 1610. It treats the use of the single rapier, as well as in conjunction with the cloak, dagger, and rotella shield. Though Capo Ferro's treatise is often praised by modern fencing historians, it was neither comprehensive nor particularly innovative and does not seem to have been terribly influential in its own time."
+    },
+    {
+        "id":20,
+        "image":"https://wiktenauer.com/images/thumb/2/25/Academie_de_l%27Esp%C3%A9e_Title.jpg/1200px-Academie_de_l%27Esp%C3%A9e_Title.jpg",
+        "name":"Gérard Thibault d'Anvers - Academie de l'Espée",
+        "price":"30",
+        "type":"manual",
+        "description":"Academie de l'Espée (Academy of the Sword) is a Dutch fencing manual written by Gérard Thibault d'Anvers and initially printed in 1630. Arguably the most elaborate fencing manual ever written, it was the work of several years and its lavish illustrations were prepared by a team of sixteen master engravers. Thibault's work treats the use of the rapier after the Spanish style La Verdadera Destreza (the True Skill) and is well-known for its use of intricate geometrical figures (especially the cercle mysterieux, or mysterious circle)."
     }
 ]
