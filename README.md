@@ -1,4 +1,4 @@
-# Arms-Shop (work in progress)
+# Arms-Shop
 Swords and sword accessories shop
   finished website (https://pavlegavrilovic.github.io/Arms-Shop/)
 
