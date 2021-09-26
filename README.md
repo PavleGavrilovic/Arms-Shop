@@ -1,5 +1,4 @@
-# Arms-Shop
-Swords and sword accessories shop
+# Arms-Shop | Swords and sword accessories shop
   finished website (https://pavlegavrilovic.github.io/Arms-Shop/)
 
 - an online shop selling sword and sword accessories
