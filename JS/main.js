@@ -316,10 +316,7 @@ function changeColor() {
         background-color:darkslateblue;
         margin-bottom: 25px;
         `;
-    document.getElementById("goToCartBtn").style.cssText = `
-        color:white;
-        background-color:darkslateblue;
-        `;
+    
 
     let articles = document.getElementsByClassName("weaponArticle");
 
@@ -393,10 +390,7 @@ function changeColor() {
         background-color:gold;
         margin-bottom: 25px;
         `;
-    document.getElementById("goToCartBtn").style.cssText = `
-        color:black;
-        background-color:gold;
-        `;
+    
 
     let articles = document.getElementsByClassName("weaponArticle");
 
