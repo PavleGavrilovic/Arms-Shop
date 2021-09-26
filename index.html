@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,56 @@
     <title>The Arms Shop | Swords & Sword Accessories</title>
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="JS/jquery-3.6.0.min.js"></script>
 </head>
+
 <body>
-    <div id="cartIcon">
-        
-        <img src="assets/images/cart.png" alt="cart_img" id="cartImg">
+    <div id="spinnerWrapper">
+        <div id="spinner"></div>
     </div>
-    
+
+    <div id="cartIcon">
+        <img src="assets/images/cart.png" alt="cart_img" id="cartImg">
+
+    </div>
+    <div id="cartSpaceWrapper">
+        <div id="cartSpace">
+            <h3>Your Cart:</h3>
+            <div id="articlesSpace"></div>
+            <h3 id="cartSpaceTotal"></h3>
+            <button id="cartPurchase">Purchase</button>
+        </div>
+    </div>
+
     <header>
         <div id="darkLight">
             <label for="dark">Toggle dark/light mode</label>
             <input type="checkbox" name="dark" id="dark">
         </div>
-        
+
         <div id="naslov">
             <h1>The Arms Shop</h1>
             <img src="assets/images/headerImg.jpg" alt="sword_img" id="headerImg">
             <h2>Arma Virumque Cano</h2>
+
         </div>
+        <div id="navbar"></div>
+
     </header>
 
     <main>
         <div class="modalContainer" id="modalContainer">
             <div id="modal">
-
-                <button id="close">X</button>
-
             </div>
         </div>
         <div id="mainWrapper"></div>
 
-        <button id="goToCartBtn">Go To Cart</button>
+        <a href="cart.html" id="goToCartBtn">Go To Cart</a>
+
+        <div id="aboutWrapper">
+
+        </div>
+
     </main>
 
     <footer>
@@ -45,4 +65,5 @@
     </footer>
     <script src="JS/main.js"></script>
 </body>
+
 </html>
