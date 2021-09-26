@@ -1,259 +1,514 @@
 @font-face {
-    font-family: Jancient;
-    src: url(assets/fonts/FONT1/JANCIENT.TTF);
+  font-family: Jancient;
+  src: url(assets/fonts/FONT1/JANCIENT.TTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-sizing: border-box;
+}
+
+/* SPINNER................................................ */
+
+#spinnerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: rgba(198, 182, 159, 255);
+}
+
+#spinner {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 12px solid rgb(209, 198, 198);
+  border-radius: 50%;
+  border-top-color: white;
+  animation: 1s spinner infinite ease-in-out;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
   }
-
-*{
-    
-    margin: 0;
-    padding: 0;
 }
 
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    box-sizing: border-box;
+header {
+  height: 400px;
+  background-color: bisque;
+  background-image: url(assets/images/rapierBack.png);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-position: 50% 0%;
+}
+header label {
+  margin-left: 10px;
 }
 
-header{
-    background-color: bisque;
-}
-header label{
-    margin-left: 10px;
+header label:hover {
+  cursor: pointer;
 }
 
-header input{
-    width: 15px;
-    height: 15px;
-    margin: 10px;
+header input {
+  display: none;
+  width: 15px;
+  height: 15px;
+  margin: 10px;
 }
 
-#darkLight{
-    background-color: gold;
-    width: 250px;
-    text-align: center;
+#darkLight {
+  border-bottom-right-radius: 25px;
+  background-color: gold;
+  height: 20px;
+  width: 150px;
+  height: 35px;
+  padding: 5px;
+  text-align: center;
 }
 
-#naslov{
-    font-family: Jancient;
-    top: 0;
-    width: 100%;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#naslov {
+  margin-top: 70px;
+  font-family: Jancient;
+  top: 0;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#headerImg{
-    width: 90px;
-    height: 70px;
-    margin-bottom: 10px;
+#naslov a {
+  text-decoration: none;
+  color: black;
+  font-size: 70px;
+  font-weight: bold;
 }
 
-#naslov h1{
-    font-size: 70px;
+#headerImg {
+  width: 90px;
+  height: 70px;
+  margin-bottom: 10px;
 }
 
-#cartIcon{
-    background-color: gold;
-    padding: 5px;
-    float: right;
-    top: 0;
-    position: sticky;
+#naslov h1 {
+  font-size: 70px;
 }
 
-#cartIcon:hover{
-    cursor: pointer;
+#cartIcon {
+  display: none;
+  background-color: gold;
+  padding: 5px;
+  float: right;
+  position: sticky;
+  top: 0;
 }
 
-#cartImg{
-    width: 30px;
-    height: 30px;
+.cartItem {
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+  border-top: 2px solid rgb(209, 198, 198);
+  border-bottom: 2px solid rgb(209, 198, 198);
 }
 
-#mainWrapper{
-    margin-bottom: 70px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
+.cartImgPreview {
+  width: 80px;
+  height: 120px;
 }
 
-.weaponArticle{
-    margin: 30px;
-    width: 270px;
-    border-top: 2px solid rgb(209, 198, 198);
-    border-bottom: 2px solid rgb(209, 198, 198);
+#cartIcon:hover {
+  cursor: pointer;
 }
 
-.weaponArticle h3{
-    margin-top: 5px;
+#cartImg {
+  width: 30px;
+  height: 30px;
 }
 
-.weaponArticle:hover{
-    cursor: pointer;
+.quantityP {
+  margin-left: 35px;
 }
 
-.weaponImg{
-    width: 150px;
-    height: 240px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+input[type="number"] {
+  width: 50px;
+  height: 20px;
+  padding: 0px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
 
-.weaponBtn{
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-    background-color: gold;
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
 }
 
-.weaponBtn:hover{
-    cursor: pointer;
+.spinner-button {
+  display: inline-block;
+  text-align: center;
+  background-color: gold;
+  width: 14.5px;
+  height: 12px;
+  line-height: 10px;
+  margin-bottom: 5px;
 }
 
-#goToCartBtn{
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 80px;
-    width: 130px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    background-color: gold;
-    margin-left: 180px;
+.spinner-button:hover {
+  cursor: pointer;
+}
+
+#cartSpaceWrapper {
+  top: 0;
+  position: sticky;
+}
+
+#cartSpace {
+  visibility: hidden;
+  padding: 5px;
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 300px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+#articlesSpace {
+  border-bottom: 1px solid black;
+  height: 500px;
+  overflow: auto;
+}
+
+#cartSpaceTotal {
+  font-size: 20px;
+  padding-top: 10px;
+  bottom: 0;
+}
+
+#cartPurchase {
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: gold;
+}
+
+#cartPurchase:hover {
+  cursor: pointer;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.navBtn {
+  font-weight: bold;
+  margin: 5px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: gold;
+}
+
+.navBtn:hover {
+  cursor: pointer;
+}
+
+#mainWrapper {
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.weaponArticleWrapper {
+  margin: 30px;
+  width: 270px;
+  border-top: 2px solid rgb(209, 198, 198);
+  border-bottom: 2px solid rgb(209, 198, 198);
+}
+
+.weaponArticle h3 {
+  margin-top: 5px;
+}
+
+.weaponArticle:hover {
+  cursor: pointer;
+}
+
+.articleName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.weaponImg {
+  width: 150px;
+  height: 240px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.weaponBtn {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: gold;
+}
+
+.weaponBtn:hover {
+  cursor: pointer;
+}
+
+#goToCartBtn {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: gold;
+  color: black;
+  margin-left: 178px;
+}
+
+#goToCartBtn:hover {
+  cursor: pointer;
 }
 
 /* MODAL WINDOW.......... */
 
-.modalContainer{
-    opacity: 0;
-    pointer-events: none;
-    background-color: rgba(0,0,0,0.3);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.modalContainer {
+  opacity: 0;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.modalContainer.show{
-    opacity: 1;
-    pointer-events: auto;
+.modalContainer.show {
+  opacity: 1;
+  pointer-events: auto;
 }
 
-#modal{
-    background-color: white;
-    width: 420px;
-    padding: 20px;
-    text-align: center;
+#modal {
+  background-color: white;
+  width: 420px;
+  padding: 20px;
+  text-align: center;
 }
 
-#modal p{
-    margin-top: 20px;
+#modal p {
+  margin-top: 20px;
 }
 
-.modalImg{
-    width: 200px;
-    height: 300px;
-    margin-top: 10px;
+.modalImg {
+  width: 200px;
+  height: 300px;
+  margin-top: 10px;
 }
 
-#modalPrice{
-    margin-top: 10px;
+#modalPrice {
+  margin-top: 10px;
+}
+
+/* ABOUT PART....................................... */
+
+#aboutWrapper {
+  padding-bottom: 10px;
+  margin: 20px;
+}
+
+#aboutHeader {
+  font-family: Jancient;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#aboutP {
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 /* ................................................. */
 
-footer{
-    padding-top: 20px;
+footer {
+  margin: 50px 20px 0px 20px;
+  padding-top: 20px;
 }
 
-footer h1{
-    font-family: Jancient;
-    font-size: 40px;
-    text-align: center;
+footer h1 {
+  margin-top: 50px;
+  font-family: Jancient;
+  font-size: 40px;
+  text-align: center;
 }
 
-fieldset{
-    border: none;
-    margin-top: 20px;
+footer h5 {
+  text-align: center;
+  margin-top: 100px;
 }
 
-form{
-    display: flex;
-    flex-direction: column;
+fieldset {
+  border: none;
+  margin-top: 20px;
 }
 
-form label{
-    text-align: center;
-    margin: 10px;
-    font-weight: bold;
+form {
+  display: flex;
+  flex-direction: column;
 }
 
-form input{
-    width: 350px;
-    height: 25px;
-    margin: 0 auto;
+form label {
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
 }
 
-form textarea{
-    width: 400px;
-    margin: 0 auto;
+form input {
+  width: 350px;
+  height: 25px;
+  margin: 0 auto;
+}
+
+form textarea {
+  width: 400px;
+  margin: 0 auto;
+  height: 200px;
+  resize: none;
+}
+
+form button {
+  margin: 0 auto;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: gold;
+}
+
+form button:hover {
+  cursor: pointer;
+}
+
+#social {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.social {
+  margin: 0px 5px 0px 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.social:hover {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    background-position: 0% 0%;
+    height: 300px;
+  }
+
+  #naslov {
+    width: 500px;
+    margin-top: 0%;
+    margin-left: 860px;
+  }
+
+  #naslov a {
+    margin-top: 15px;
+  }
+
+  #navbar {
+    display: block;
+    margin-left: 1000px;
+    margin-top: 0%;
+  }
+
+  #mainWrapper {
+    margin-top: 50px;
+  }
+
+  .weaponArticleWrapper {
+    width: 240px;
+  }
+
+  .weaponArticle {
+    margin: 30px;
+    width: 200px;
+  }
+
+  .weaponImg {
+    width: 140px;
     height: 200px;
-    resize: none;
-}
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
-form button{
-    margin: 0 auto;
-    font-weight: bold;
-    margin-top: 25px;
-    margin-bottom: 5px;
-    width: 100px;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-    background-color: gold;
-}
+  #goToCartBtn {
+    margin-left: 696px;
+  }
 
+  #modal {
+    width: 500px;
+  }
 
-@media only screen and (min-width: 768px){
-    .weaponArticle{
-        margin: 30px;
-        width: 200px;
-    }
+  .modalImg {
+    width: 200px;
+    height: 300px;
+    margin-top: 10px;
+  }
 
-    .weaponImg{
-        width: 140px;
-        height: 200px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    #goToCartBtn{
-        margin-left: 696px;
-    }
-
-    #modal{
-        width: 500px;
-    }
-
-    .modalImg{
-        width: 200px;
-        height: 300px;
-        margin-top: 10px;
-    }
-
-    form textarea{
-        height: 300px;
-    }
-
+  form textarea {
+    height: 300px;
+  }
 }
