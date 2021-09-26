@@ -294,21 +294,6 @@ input[type="number"]::-webkit-outer-spin-button {
   cursor: pointer;
 }
 
-#goToCartBtn {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 10px;
-  border: none;
-  border-radius: 10px;
-  background-color: gold;
-  color: black;
-  margin-left: 178px;
-}
-
-#goToCartBtn:hover {
-  cursor: pointer;
-}
 
 /* MODAL WINDOW.......... */
 
