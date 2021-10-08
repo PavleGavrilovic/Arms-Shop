@@ -295,6 +295,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 
+
 /* MODAL WINDOW.......... */
 
 .modalContainer {
@@ -394,7 +395,7 @@ form label {
 }
 
 form input {
-  width: 350px;
+  width: 20em;
   height: 25px;
   margin: 0 auto;
 }
@@ -435,6 +436,25 @@ form button:hover {
 
 .social:hover {
   cursor: pointer;
+}
+
+@media only screen and (min-width: 320px) and (max-width:480px){
+  body{
+    width: 26.4em;
+  }
+
+  .modalContainer{
+    width: 26.4em;
+    height: 100%;
+  }
+
+  #modal{
+    width: 280px;
+  }
+
+  form textarea{
+    width: 25em;
+  }
 }
 
 @media only screen and (min-width: 768px) {
